@@ -1,0 +1,23 @@
+{
+    "name": "arispati/laravel-encrypt-file",
+    "description": "Laravel package for encrypt and decrypt file",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Arispati\\LaravelEncryptFile\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Muhamad Aris",
+            "email": "masarispati@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7|^8",
+        "illuminate/support": "~5.0|~6.0|~7.0|^8.0",
+        "arispati/php-encrypt-file": "0.1.0"
+    }
+}
